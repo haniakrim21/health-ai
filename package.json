@@ -1,0 +1,48 @@
+{
+  "name": "health-ai",
+  "version": "1.0.0",
+  "private": true,
+  "packageManager": "pnpm@10.26.0",
+  "engines": {
+    "node": ">=v22.11.0"
+  },
+  "scripts": {
+    "dev": "next dev --turbopack",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@headlessui/react": "2.2.1",
+    "@heroicons/react": "^2.2.0",
+    "@hookform/resolvers": "^5.2.2",
+    "@lexical/code": "^0.38.2",
+    "@lexical/link": "^0.38.2",
+    "@lexical/list": "^0.38.2",
+    "@lexical/react": "^0.38.2",
+    "@monaco-editor/react": "^4.7.0",
+    "@tanstack/react-query": "^5.90.5",
+    "axios": "^1.7.7",
+    "classnames": "^2.5.1",
+    "lexical": "^0.38.2",
+    "next": "15.5.9",
+    "react": "19.2.3",
+    "react-dom": "19.2.3",
+    "react-hook-form": "^7.65.0",
+    "react-markdown": "^9.1.0",
+    "reactflow": "^11.11.4",
+    "swr": "^2.3.6",
+    "tailwind-merge": "^2.6.0",
+    "zod": "^3.25.76",
+    "zustand": "^5.0.9"
+  },
+  "devDependencies": {
+    "@types/node": "18.15.0",
+    "@types/react": "~19.2.7",
+    "@types/react-dom": "~19.2.3",
+    "autoprefixer": "^10.4.21",
+    "postcss": "^8.5.6",
+    "tailwindcss": "^3.4.18",
+    "typescript": "^5.9.3"
+  }
+}
